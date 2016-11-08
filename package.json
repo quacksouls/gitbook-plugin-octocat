@@ -1,7 +1,7 @@
 {
-    "name": "gitbook-plugin-github",
+    "name": "gitbook-plugin-gitlab",
     "version": "2.0.0",
-    "description": "Display a link to your GitHub repo in your gitbook",
+    "description": "Display a link to your GitBab repo in your gitbook",
     "main": "index.js",
     "authors": [
         {
@@ -10,11 +10,15 @@
         {
             "name": "Samy Pessé",
             "email": "samy@gitbook.com"
+        },
+        {
+            "name": "Chathu Vishwajith",
+            "email": "iam@chathu.me"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-github.git"
+        "url": "https://github.com/iamchathu/gitbook-plugin-gitlab.git"
     },
     "license": "Apache-2.0",
     "engines": {
@@ -25,7 +29,7 @@
             "url": {
                 "type": "string",
                 "required": true,
-                "title": "URL to your GitHub repository"
+                "title": "URL to your GitLab repository"
             }
         }
     }
