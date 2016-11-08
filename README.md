@@ -1,6 +1,6 @@
-## plugin-github
+## gitbook-plugin-gitlab
 
-Display a link to your GitHub repo in your gitbook.
+Display a link to your GitLab repo in your gitbook.
 
 ### Usage
 
@@ -8,10 +8,10 @@ Put this in your book.json:
 
 ```js
 {
-    "plugins": [ "github" ],
+    "plugins": [ "gitlab" ],
     "pluginsConfig": {
-        "github": {
-            "url": "https://github.com/your/repo"
+        "gitlab": {
+            "url": "https://gitlab.com/your/repo"
         }
     }
 }
@@ -23,3 +23,4 @@ And you're done!
 
 Original work by [@mjackson](https://github.com/mjackson).
 
+Edited for GitLab support by @iamchathu
