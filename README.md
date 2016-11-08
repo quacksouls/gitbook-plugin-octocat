@@ -23,4 +23,4 @@ And you're done!
 
 Original work by [@mjackson](https://github.com/mjackson).
 
-Edited for GitLab support by @iamchathu
+Edited for GitLab support by [Chathu Vishwajith](https://github.com/iamchathu)
