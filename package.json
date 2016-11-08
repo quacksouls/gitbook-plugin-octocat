@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-gitlab",
-    "version": "2.0.0.1",
+    "version": "2.0.0-1",
     "description": "Display a link to your Gitlab repo in your gitbook",
     "main": "index.js",
     "authors": [
