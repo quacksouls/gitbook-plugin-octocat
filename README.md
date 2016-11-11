@@ -1,6 +1,7 @@
 ## gitbook-plugin-gitlab
 
 [![npm version](https://badge.fury.io/js/gitbook-plugin-gitlab.svg)](https://badge.fury.io/js/gitbook-plugin-gitlab)
+[![Known Vulnerabilities](https://snyk.io/test/github/iamchathu/gitbook-plugin-gitlab/badge.svg)](https://snyk.io/test/github/iamchathu/gitbook-plugin-gitlab)
 
 Display a link to your GitLab repo in your gitbook.
 
