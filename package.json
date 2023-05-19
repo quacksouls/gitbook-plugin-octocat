@@ -1,36 +1,51 @@
 {
-    "name": "gitbook-plugin-gitlab",
-    "version": "2.0.0-1",
-    "description": "Display a link to your Gitlab repo in your gitbook",
-    "main": "index.js",
-    "authors": [
-        {
-            "name": "Michael Jackson"
-        },
-        {
-            "name": "Samy Pessé",
-            "email": "samy@gitbook.com"
-        },
-        {
-            "name": "Chathu Vishwajith",
-            "email": "iam@chathu.me"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/iamchathu/gitbook-plugin-gitlab.git"
+  "name": "gitbook-plugin-octocat",
+  "version": "1.0.0",
+  "description": "Display a link to your GitHub repository in your GitBook/HonKit",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "Michael Jackson"
     },
-    "license": "Apache-2.0",
-    "engines": {
-        "gitbook": ">=2.5.0"
+    {
+      "name": "Samy Pessé",
+      "email": "samy@gitbook.com"
     },
-    "gitbook": {
-        "properties": {
-            "url": {
-                "type": "string",
-                "required": true,
-                "title": "URL to your GitLab repository"
-            }
-        }
+    {
+      "name": "Chathu Vishwajith",
+      "email": "iam@chathu.me"
+    },
+    {
+      "name": "Duck McSouls",
+      "email": "quacksouls [AT] gmail [DOT] com"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quacksouls/gitbook-plugin-octocat.git"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "url": {
+        "type": "string",
+        "required": true,
+        "title": "URL to your GitHub repository"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/quacksouls/gitbook-plugin-octocat/issues"
+  },
+  "homepage": "https://github.com/quacksouls/gitbook-plugin-octocat#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GitBook",
+    "HonKit"
+  ]
 }
