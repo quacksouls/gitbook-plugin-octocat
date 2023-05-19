@@ -1,13 +1,13 @@
-require([ 'gitbook' ], function (gitbook) {
-    gitbook.events.bind('start', function (e, config) {
-        var gitlabURL = config.gitlab.url;
+require([ "gitbook" ], function (gitbook) {
+    gitbook.events.bind("start", function (e, config) {
+        const githubURL = config.github.url;
 
         gitbook.toolbar.createButton({
-            icon: 'fa fa-gitlab',
-            label: 'GitLab',
-            position: 'right',
+            icon: "fa fa-github",
+            label: "GitHub",
+            position: "right",
             onClick: function() {
-                window.open(gitlabURL)
+                window.open(githubURL)
             }
         });
     });
