@@ -1,6 +1,6 @@
 require([ "gitbook" ], function (gitbook) {
     gitbook.events.bind("start", function (e, config) {
-        const githubURL = config.github.url;
+        const githubURL = config.octocat.url;
 
         gitbook.toolbar.createButton({
             icon: "fa fa-github",
