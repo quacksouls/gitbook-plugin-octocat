@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-octocat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display a link to your GitHub repository in your GitBook/HonKit",
   "main": "index.js",
   "authors": [
