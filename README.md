@@ -1,6 +1,6 @@
 ## gitbook-plugin-octocat
 
-[![npm version](https://badge.fury.io/js/gitbook-plugin-octocat.svg)](https://badge.fury.io/js/gitbook-plugin-octocat)
+[![npm version](https://badge.fury.io/js/gitbook-plugin-octocat.svg)](https://badge.fury.io/js/gitbook-plugin-octocat
 [![Known Vulnerabilities](https://snyk.io/test/github/quacksouls/gitbook-plugin-octocat/badge.svg)](https://snyk.io/test/github/quacksouls/gitbook-plugin-octocat)
 
 Display a link to your GitHub repository in your GitBook/HonKit.
