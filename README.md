@@ -5,6 +5,14 @@
 
 Display a link to your GitHub repository in your GitBook/HonKit.
 
+### Installation
+
+Install via npm:
+
+```sh
+npm install gitbook-plugin-octocat --save-dev
+```
+
 ### Usage
 
 Put this in your `book.json`:
